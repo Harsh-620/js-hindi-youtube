@@ -1,4 +1,4 @@
-const promiseOne = new Promise(function(resolve, reject){
+const promiseOne = new Promise(function(resolve, reject){   //Yahan hmne ek new promise banaya jahan promise ek object hai
     //Do an async task
     // DB calls, cryptography, network
     setTimeout(function(){
